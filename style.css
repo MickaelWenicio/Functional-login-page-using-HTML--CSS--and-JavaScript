@@ -1,0 +1,160 @@
+/*GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #674cca;
+}
+
+
+#main-login{
+    width: 80vw;
+    height: 80vh;
+    margin-top: 4%;
+    border-radius: 1.4em;
+    display: flex;
+    box-shadow: 0em 0em 2em rgba(29, 29, 29, 0.288);
+}
+
+/*IMAGEM*/
+#div-img {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(160deg, rgb(136, 106, 228) 100%, rgb(91, 59, 202) 100%);
+    border-radius: 1.4em 0% 0% 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-img p {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 4%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 6%;
+}
+
+/*LOGIN FORM*/
+h1 {
+    line-height: 1em;
+    color: #5B3BCA;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+h1 span{
+    color: #5B3BCA;
+    font-weight: 400;
+}
+
+#div-form{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    border-radius: 0em 1.4em 1.4em 0em;
+    padding: 5%;
+    align-items: center;
+}
+
+#div-form form {
+    background-color: #ffffff;
+    box-shadow: 0em 0em 0.4em #e2e2e2;
+    width: 80%;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+#div-form form {
+    background-color: #ffffff;
+    box-shadow: 0em 0em 0.4em #e2e2e2;
+    width: 90%;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+h2{
+    align-self: center;
+    font-size: 1.4rem;
+}
+
+h2 span{
+    color: #5B3BCA;
+    font-size: 1.4rem;
+}
+
+#div-form label {
+    font-size: 1.4em;
+    color: #727272;
+    margin-top: 1.4em;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #5c5c5c;
+    width: 90%;
+    align-self: center;
+    height: 2em;
+    font-size: 1.2em;
+    color: #727272;
+}
+
+#forgot-password{
+    color: #5B3BCA;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+    align-self:flex-end;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    margin-right: 0.9rem;
+}
+
+#login{
+    align-self: center;
+    color: white;
+    background-color: #5B3BCA;
+    border: none;
+    width: 80%;
+    height: 3em;
+    font-size: 1.4em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+#create-account{
+    color: #5B3BCA;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+
+
+
+

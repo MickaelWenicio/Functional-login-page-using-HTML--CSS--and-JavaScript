@@ -5,24 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LOGIN PAGE</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Noto+Sans:wght@400;700;900&family=Outfit:wght@900&family=REM:wght@400;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     </head>
     <body>
-        <main>
-            <div>
-                <img src="" alt="">
+        <main id="main-login">
+            <div id="div-img">
+                <img src="./img/Business growth-amico.svg" alt="Imagem indo atrás dos seus objetivos">
+                <p>Entre na sua conta para uma experiência completa.</p>
             </div>
-            <div>
-                <h1>Olá! Bom dia</h1>
-                <h2>Entre na sua conta</h2>
+            <div id="div-form">
+                <h1><span>Olá!</span> <br> Bom Dia</h1>
                 <form>
+                    <h2><span>Entre</span> na sua conta</h2>
                     <label for="user">Usuário</label>
                     <input type="text" name="user" id="user">
                     <label for="password">Senha</label>
-                    <input type="text" name="password" id="password">
-                    <p><button>Esqueceu a senha?</button></p>
-                    <button>Entrar</button>
+                    <input type="password" name="password" id="password">
+                    <button id="forgot-password">Esqueceu a senha?</button>
+                    <button id="login">Entrar</button>
+                    <button id="create-account">Criar Conta</button>
                 </form>
-                <p><button>Criar Conta</button></p>
             </div>
         </main>
     </body>
